@@ -10,9 +10,4 @@ Aplikasi GUI JavaFX untuk mengelola data sekolah (Mata Kuliah PBO).
 - Validasi dengan Alert: kolom kosong, ID harus angka (try-catch), ID duplikat, format jam, jadwal bentrok
 - Data tersimpan otomatis (serialization): `data_sekolah.dat`, `data_jadwal.dat`, `data_pengumuman.dat`
 
-## Konsep OOP
-Encapsulation (getter/setter), Inheritance (`Orang` -> `Siswa`, `Guru`), Polymorphism (override `getPeran()`, `getDetail()`, `setDetail()`), komposisi (`Sekolah` memiliki daftar `Orang`, `Jadwal`, `Pengumuman`).
 
-## Cara menjalankan
-Buka di NetBeans, jalankan `App.java`, atau `mvn clean javafx:run`.
-Versi terminal (Tugas 4): `MainKonsol.java`.
